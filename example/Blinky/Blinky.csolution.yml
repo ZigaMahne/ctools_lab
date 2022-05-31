@@ -27,6 +27,12 @@ solution:
     - pack: Keil::iMXRT105x_MWP@1.4.0
       for-type:
         - +IMXRT1050-EVKB
+    - pack: NXP::K32L3A60_DFP@13.0.0
+      for-type:
+        - +FRDM-K32L3A6
+    - pack: NXP::FRDM-K32L3A6_BSP@13.0.0
+      for-type:
+        - +FRDM-K32L3A6
     - pack: Keil::STM32L4xx_DFP@2.6.1
       for-type:
         - +B-L475E-IOT01A
@@ -43,6 +49,9 @@ solution:
     - type: IMXRT1050-EVKB
       # board: EVKB-IMXRT1050_MDK
       device: MIMXRT1052DVL6B
+    - type: FRDM-K32L3A6
+      # board:FRDM-K32L3A6
+      device: K32L3A60VPJ1A:cm4
     - type: B-L475E-IOT01A
       # board: B-L475E-IOT01A
       device: STM32L475VGTx

@@ -56,7 +56,7 @@ solution:
         - +NUCLEO-L552ZE-Q_ESP8266
         - +NUCLEO-L552ZE-Q_ISM43362
         - +NUCLEO-L552ZE-Q_WizFi360
-    
+
     - pack: Keil::STM32H7xx_DFP@3.0.0
       for-type:
         - +NUCLEO-H743ZI

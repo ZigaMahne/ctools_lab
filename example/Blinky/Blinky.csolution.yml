@@ -56,13 +56,6 @@ solution:
       for-type:
         - +LPCXpresso55S69
 
-    - pack: Keil::STM32H7xx_DFP@3.0.0
-      for-type:
-        - +NUCLEO-H743ZI
-    - pack: Keil::NUCLEO-H743ZI_BSP@1.0.0
-      for-type:
-        - +NUCLEO-H743ZI
-
     - pack: Keil::STM32L5xx_DFP@1.4.0
       for-type:
         - +NUCLEO-L552ZE-Q
@@ -98,9 +91,6 @@ solution:
     - type: NUCLEO-L552ZE-Q
       # board: NUCLEO-L552ZE-Q
       device: STM32L552ZETxQ
-    - type: NUCLEO-H743ZI
-      # board: NUCLEO-H743ZI
-      device: STM32H743ZITx
     - type: LPCXpresso55S69
       # board: LPCXpresso55S69
       device: LPC55S69JBD100:cm33_core0

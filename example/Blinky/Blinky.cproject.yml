@@ -31,9 +31,6 @@ project:
     - layer: ./Board/NUCLEO-L552ZE-Q/Board.clayer.yml
       for-type:
         - +NUCLEO-L552ZE-Q
-    - layer: ./Board/NUCLEO-H743ZI/Board.clayer.yml
-      for-type:
-        - +NUCLEO-H743ZI
     - layer: ./Board/LPCXpresso55S69/Board.clayer.yml
       for-type: 
         - +LPCXpresso55S69

@@ -46,6 +46,16 @@ solution:
       for-type:
         - +32L4R9IDISCOVERY
 
+    - pack: NXP::LPC55S69_DFP@13.0.0
+      for-type:
+        - +LPCXpresso55S69
+    - pack: NXP::LPCXpresso55S69_BSP@13.0.0
+      for-type:
+        - +LPCXpresso55S69
+    - pack: Keil::LPCXpresso55S69_BSP@1.1.0
+      for-type:
+        - +LPCXpresso55S69
+
   target-types:
     - type: AVH_MPS2_Cortex-M7
       device: ARM::CMSDK_CM7_DP_VHT
@@ -61,6 +71,9 @@ solution:
     - type: B-L475E-IOT01A
       # board: B-L475E-IOT01A
       device: STM32L475VGTx
+    - type: LPCXpresso55S69
+      # board: LPCXpresso55S69
+      device: LPC55S69JBD100:cm33_core0
     - type: 32L4R9IDISCOVERY
       # board: 32L4R9IDISCOVERY
       device: STM32L4R9AIIx

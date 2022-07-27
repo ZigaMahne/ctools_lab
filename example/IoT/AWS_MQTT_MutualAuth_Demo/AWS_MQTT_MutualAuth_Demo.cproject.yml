@@ -179,6 +179,11 @@ project:
         - +IMXRT1050-EVKB
         - +IMXRT1050-EVKB_ESP8266
         - +IMXRT1050-EVKB_WizFi360
+    - layer: ./Board/LPCXpresso55S69/Board.clayer.yml
+      for-type: 
+        - +LPCXpresso55S69_ESP8266
+        - +LPCXpresso55S69_ISM43362
+        - +LPCXpresso55S69_WizFi360
     - layer: ./Board/32L4R9IDISCOVERY/Board.clayer.yml
       for-type: 
         - +32L4R9IDISCOVERY_ESP8266
@@ -201,6 +206,9 @@ project:
       for-type:
         - +IMXRT1050-EVKB_ESP8266
         - +IMXRT1050-EVKB_WizFi360
+        - +LPCXpresso55S69_ESP8266
+        - +LPCXpresso55S69_ISM43362
+        - +LPCXpresso55S69_WizFi360
         - +32L4R9IDISCOVERY_ESP8266
         - +32L4R9IDISCOVERY_ISM43362
         - +32L4R9IDISCOVERY_WizFi360

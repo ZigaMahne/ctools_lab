@@ -70,6 +70,13 @@ solution:
       for-type:
         - +NUCLEO-L552ZE-Q
 
+    - pack: Keil::STM32L5xx_DFP@1.4.0
+      for-type:
+        - +STM32L562E-DK
+    - pack: Keil::STM32L562E-DK_BSP@1.3.0
+      for-type:
+        - +STM32L562E-DK
+
   target-types:
     - type: AVH_MPS2_Cortex-M7
       device: ARM::CMSDK_CM7_DP_VHT
@@ -85,6 +92,9 @@ solution:
     - type: B-L475E-IOT01A
       # board: B-L475E-IOT01A
       device: STM32L475VGTx
+    - type: STM32L562E-DK
+      # board: STM32L562E-DK
+      device: STM32L562QEIxQ
     - type: NUCLEO-L552ZE-Q
       # board: NUCLEO-L552ZE-Q
       device: STM32L552ZETxQ

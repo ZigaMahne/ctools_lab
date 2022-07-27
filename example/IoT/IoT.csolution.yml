@@ -100,6 +100,17 @@ solution:
         - +32L4R9IDISCOVERY_ISM43362
         - +32L4R9IDISCOVERY_WizFi360
 
+    - pack: Keil::STM32L5xx_DFP@1.4.0
+      for-type:
+        - +STM32L562E-DK_ESP8266
+        - +STM32L562E-DK_ISM43362
+        - +STM32L562E-DK_WizFi360
+    - pack: Keil::STM32L562E-DK_BSP@1.3.0
+      for-type:
+        - +STM32L562E-DK_ESP8266
+        - +STM32L562E-DK_ISM43362
+        - +STM32L562E-DK_WizFi360
+
   target-types:
     - type: AVH_MPS2_Cortex-M7
       device: ARM::CMSDK_CM7_DP_VHT
@@ -115,6 +126,15 @@ solution:
     - type: IMXRT1050-EVKB_WizFi360
       # board: EVKB-IMXRT1050_MDK
       device: MIMXRT1052DVL6B
+    - type: STM32L562E-DK_ESP8266
+      # board: STM32L562E-DK
+      device: STM32L562QEIxQ
+    - type: STM32L562E-DK_ISM43362
+      # board: STM32L562E-DK
+      device: STM32L562QEIxQ
+    - type: STM32L562E-DK_WizFi360
+      # board: STM32L562E-DK
+      device: STM32L562QEIxQ
     - type: MCB4300
       # board: MCB4300
       device: LPC4357:Cortex-M4

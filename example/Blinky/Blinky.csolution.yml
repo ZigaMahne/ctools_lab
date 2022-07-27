@@ -56,6 +56,13 @@ solution:
       for-type:
         - +LPCXpresso55S69
 
+    - pack: Keil::STM32H7xx_DFP@3.0.0
+      for-type:
+        - +NUCLEO-H743ZI
+    - pack: Keil::NUCLEO-H743ZI_BSP@1.0.0
+      for-type:
+        - +NUCLEO-H743ZI
+
   target-types:
     - type: AVH_MPS2_Cortex-M7
       device: ARM::CMSDK_CM7_DP_VHT
@@ -71,6 +78,9 @@ solution:
     - type: B-L475E-IOT01A
       # board: B-L475E-IOT01A
       device: STM32L475VGTx
+    - type: NUCLEO-H743ZI
+      # board: NUCLEO-H743ZI
+      device: STM32H743ZITx
     - type: LPCXpresso55S69
       # board: LPCXpresso55S69
       device: LPC55S69JBD100:cm33_core0

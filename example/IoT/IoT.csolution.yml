@@ -43,6 +43,9 @@ solution:
         - +IMXRT1050-EVKB
         - +IMXRT1050-EVKB_ESP8266
         - +IMXRT1050-EVKB_WizFi360
+    - pack: Keil::LPC4300_DFP
+      for-type:
+        - +MCB4300
 
     - pack: Keil::STM32L5xx_DFP@1.4.0
       for-type:
@@ -112,6 +115,9 @@ solution:
     - type: IMXRT1050-EVKB_WizFi360
       # board: EVKB-IMXRT1050_MDK
       device: MIMXRT1052DVL6B
+    - type: MCB4300
+      # board: MCB4300
+      device: LPC4357:Cortex-M4
     - type: NUCLEO-L552ZE-Q
       # board: NUCLEO-L552ZE-Q
       device: STM32L552ZETxQ

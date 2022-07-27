@@ -70,6 +70,13 @@ solution:
       for-type:
         - +STM32L562E-DK
 
+    - pack: Keil::STM32G0xx_DFP@1.4.0
+      for-type:
+        - +STM32G071B-DISCO
+    - pack: Keil::STM32G071B-DISCO_BSP@1.0.0
+      for-type:
+        - +STM32G071B-DISCO
+
   target-types:
     - type: AVH_MPS2_Cortex-M7
       device: ARM::CMSDK_CM7_DP_VHT
@@ -85,6 +92,9 @@ solution:
     - type: B-L475E-IOT01A
       # board: B-L475E-IOT01A
       device: STM32L475VGTx
+    - type: STM32G071B-DISCO
+      # board: STM32G071B-DISCO
+      device: STM32G071RBTx
     - type: STM32L562E-DK
       # board: STM32L562E-DK
       device: STM32L562QEIxQ

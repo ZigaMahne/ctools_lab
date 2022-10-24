@@ -124,7 +124,7 @@ layer:
         - file: ./Config_Audio.h
         - file: ./Config_WM8960.h
         - file: ./audio_drv.h
-        - file: ../../RTE/Device/MIMXRT1052DVL6B/MIMXRT1052xxxxx_flexspi_nor_sdram.scf
+        - file: ./RTE/Device/MIMXRT1052DVL6B/MIMXRT1052xxxxx_flexspi_nor_sdram.scf
     - group: MCUXpresso
       files:
         - file: ./IMXRT1050-EVKB.mex

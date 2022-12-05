@@ -3,7 +3,9 @@
 layer:
   # type: Board
   # name: IMXRT1050-EVKB
-  description: Board setup with interfaces
+  # variant: IoT-WiFi-Ethernet
+  description: Board setup for IoT with WiFi and Ethernet interface
+  # for-device: MIMXRT1052DVL6B
 
   # interfaces:
   #   - consumes:
@@ -24,10 +26,10 @@ layer:
   #   - pack: ARM::CMSIS
   #   - pack: ARM::CMSIS-Driver
   #   - pack: Keil::ARM_Compiler
-  #   - pack: NXP::MIMXRT1052_DFP@15.0.0
-  #   - pack: NXP::EVKB-IMXRT1050_BSP@15.0.0
-  #   - pack: Keil::IMXRT1050-EVKB_BSP@1.1.0
-  #   - pack: Keil::iMXRT105x_MWP@1.5.0
+  #   - pack: NXP::MIMXRT1052_DFP@15.1.0
+  #   - pack: NXP::EVKB-IMXRT1050_BSP@15.1.0
+  #   - pack: Keil::IMXRT1050-EVKB_BSP@1.1.1
+  #   - pack: Keil::iMXRT105x_MWP@1.5.1
 
   add-paths:
     - .
